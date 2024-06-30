@@ -18,7 +18,16 @@
  * AutoCAD
  * Python
 
-<------ ## Code Example
+## Code Example
+```javascript
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  // TODO
+  const distanceLeft = mpg * fuelLeft;
+  if (distanceLeft >= distanceToPump) {
+    return true;
+  } return false;
+};
+```
 
 ## Work experience
 
