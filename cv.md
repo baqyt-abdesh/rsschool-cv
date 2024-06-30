@@ -34,20 +34,20 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
 **Leading specialist**
 
 2017 — 2018
-### QazCloud, Atyrau, [https://www.linkedin.com/company/llp-qazcloud/]
+### [QazCloud, Atyrau](https://www.linkedin.com/company/llp-qazcloud/)
 **Was engaged in helpdesk, system administration in the subsidiary company QazPost.**
 
 **Operator**
 
 2020 — 2021
-### BTS Digital, Nur-Sultan, [app.dosmart.kz/]
+### [BTS Digital, Nur-Sultan](https://app.dosmart.kz/)
 **Daily validation, digitization and verification of fiscal checks.**
 
 ## Education
 
 ### Engineering and Natural Sciences, Information Systems
 
-2013 - 2018 - **Suleyman Demirel University**
+2013 - 2018 - **[Suleyman Demirel University](https://sdu.edu.kz/language/en/)**
 
 **Languages:**
  * Kazakh — Native
