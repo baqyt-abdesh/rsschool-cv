@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="row-list">
                 <li><a href="#contacts">Contacts</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#code-example">Code Example</a></li>
@@ -21,30 +21,30 @@
         </nav>
     </header>
     <main>
-        <section>
-            <div>
+        <section class="first-section">
+            <div class="first-section-first-div">
                 <h1>Baqyt Abdesh</h1>
                 <h3>Frontend Developer</h3>
-                <div>
+                <div class="about">
                     <h2>About Me</h2>
-                    <p>I am a 28 year old newbie trying to gain knowledge of front-end development.</p>
-                    <div id="contacts">
-                        <h3>Other Socials</h3>
+                    <p class="grey">I am a 28 year old newbie trying to gain knowledge of front-end development.</p>
+                    <div class="socials" id="contacts">
+                        <h3 class="grey">Other Socials</h3>
                         <ul>
-                            <li><a href="https://telegram.me/a_baqyt"><img src="#" alt="tg" class="media"></a></li>
-                            <li><a href="mailto:130103041.stu.sdu.edu@gmail.com"><img src="#" alt="gm" class="media"></a></li>
-                            <li><a href="https://www.linkedin.com/in/bakyt-abdesh"><img src="#" alt="lk" class="media"></a></li>
-                            <li><a href="https://discord.com/channels/@baqyt#4844"><img src="#" alt="dc" class="media"></a></li>
+                            <li><a href="https://telegram.me/a_baqyt"><img src="assets/svg/telegram-svgrepo-com.svg" alt="tg" class="media"></a></li>
+                            <li><a href="mailto:130103041.stu.sdu.edu@gmail.com"><img src="assets/svg/gmail-svgrepo-com.svg" alt="gm" class="media"></a></li>
+                            <li><a href="https://www.linkedin.com/in/bakyt-abdesh"><img src="assets/svg/linkedln-svgrepo-com.svg" alt="lk" class="media"></a></li>
+                            <li><a href="https://discord.com/channels/@baqyt#4844"><img src="assets/svg/icons8-discord.svg" alt="dc" class="media"></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div><img src="#" alt="cv-avatar"></div>
+            <div class="first-section-second-div"><img src="assets/img/Profile-Avatar-PNG.png" alt="cv-avatar" class="cv-avatar"></div>
         </section>
-        <section>
-            <div id="skills">
+        <section class="second-section">
+            <div class="center" id="skills">
                 <h2>Skills</h2>
-                <ul>
+                <ul class="lists">
                     <li>HTML5</li>
                     <li>CSS3</li>
                     <li>AutoCAD</li>
@@ -52,26 +52,37 @@
                 </ul>
             </div>
             <div id="code-example">
-                <h2>Code Example</h2>
+                <h2 class="center">Code Example</h2>
+                <pre>
+                    <code>
+                        const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+                            // TODO
+                            const distanceLeft = mpg * fuelLeft;
+                            if (distanceLeft >= distanceToPump) {
+                              return true;
+                            } return false;
+                        };
+                    </code>
+                </pre>
             </div>
-            <div id="languages">
+            <div class="center" id="languages">
                 <h2>Languages</h2>
-                <ul>
+                <ul class="lists">
                     <li>Kazakh — Native</li>
                     <li>English — A2 — Pre Intermediate</li>
                     <li>Russian — B1 — Intermediate</li>
                 </ul>
             </div>
         </section>
-        <section>
+        <section class="third-section">
             <div id="education">
-                <h2>Work Experience</h2>
+                <h2 class="center">Work Experience</h2>
                 <h5>Suleyman Demirel University</h5>
                 <p>Engineering and Natural Sciences, Information Systems</p>
                 <p>2013 - 2018</p>
             </div>
             <div id="work-experience">
-                <h2>Education</h2>
+                <h2 class="center">Education</h2>
                 <h5>QazCloud, Atyrau</h5>
                 <p>Leading specialist</p>
                 <p>Was engaged in helpdesk, system administration in the subsidiary company QazPost.</p>
@@ -82,21 +93,21 @@
                 <p>2020 — 2021</p>
             </div>
         </section>
-        <section>
+        <section class="fourth-section">
             <div id="my-projects">
                 <h2>My Projects</h2>
                 <div class="projs">
                     <div class="proj-1">
                         <h6>RSS-CV</h6>
-                        <a href="https://baqyt-abdesh.github.io/rsschool-cv/"><img src="#" alt="project-cv"></a>
+                        <a href="https://baqyt-abdesh.github.io/rsschool-cv/"><img src="assets/img/Screenshot_7-7-2024_175917_.jpeg" alt="project-cv"></a>
                     </div>
                     <div class="proj-2">
                         <h6>Future</h6>
-                        <a href="#"><img src="#" alt="future-proj"></a>
+                        <a href="#"><img src="assets/img/three-dots.png" alt="future-proj"></a>
                     </div>
                     <div class="proj-3">
                         <h6>Future</h6>
-                        <a href="#"><img src="#" alt="future-proj"></a>
+                        <a href="#"><img src="assets/img/three-dots.png" alt="future-proj"></a>
                     </div>
                 </div>
             </div>
